@@ -1,0 +1,127 @@
+/* Dark Background */
+body {
+  background-color: #0f172a;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Title */
+h1 {
+  color: #f97316;
+  margin-bottom: 30px;
+}
+
+/* Form container */
+form {
+  background-color: #1e293b;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  background-color: #111827;
+  color: white;
+}
+
+/* Button */
+button {
+  margin-top: 15px;
+  background-color: #f97316;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ea580c;
+}
+
+/* Table */
+table {
+  margin-top: 40px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+th {
+  background-color: #f97316;
+  padding: 12px;
+}
+
+/* Table Data */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #374151;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #1f2937;
+}
+/* Page layout */
+.App {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Form title spacing */
+form h2 {
+  color: #f97316;
+}
+
+/* Inputs focus effect */
+input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #f97316;
+  box-shadow: 0 0 5px #f97316;
+}
+
+/* Button hover animation */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea580c;
+  transform: scale(1.05);
+}
+
+/* Table container */
+table {
+  background-color: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table header */
+th {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table row spacing */
+td, th {
+  text-align: center;
+}
